@@ -1,0 +1,677 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*top header */
+.top-header {
+  background-color: #ecf6fe;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.top-header p {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(0, 136, 255, 0.555);
+  font-weight: 200;
+  font-family: "Josefin Sans";
+}
+.top-header span {
+  color: #0088ff;
+}
+
+.col-4 i {
+
+
+ 
+  color: #0088ff;
+  padding-left: 5px;
+  padding-right: 5px;
+ 
+  margin-left: 10px;
+  font-size: medium;
+}
+/* header*/
+header {
+  background-image: url("IMAGE.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 75px;
+}
+
+
+
+nav a {
+  text-decoration: none;
+margin-left: 5px;
+  font-size: 16px;
+  color: #008aff;
+  font-weight: 300;
+  font-family: "Josefin Sans";
+  cursor: pointer;
+  padding-left: 12px;
+  padding-right: 5px;
+}
+
+#btn {
+  background-color: yellow;
+  border-style: none;
+  width: 180px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: medium;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+header a:hover {
+  border-radius: 22px;
+  color: white !important;
+  background-size: 150px;
+  display: inline-block;
+  width: 75px;
+  height: 30px;
+  background-color: #008aff;
+  padding-left: 12px;
+padding-right: 5px;
+}
+.general h1 {
+  font-size: 33px;
+  color: #008aff;
+  font-weight: 300;
+  font-family: "Josefin Sans";
+  margin-top: 200px;
+}
+#h1 {
+  font-size: 68px;
+  color: #13287e;
+  font-weight: 400;
+  font-family: "Josefin Sans";
+  margin-top: 30px;
+}
+header p {
+  width: 675px;
+  height: 58px;
+  font-size: 16px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 300;
+  font-family: "Josefin Sans";
+}
+#button {
+  width: 219px;
+  height: 67px;
+  border-radius: 33px;
+  background-color: #ffe824;
+  border-style: none;
+  margin-top: 49px;
+  cursor: pointer;
+}
+#home {
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  color: white;
+  border-radius: 22px;
+  background-color: #008aff;
+  padding-left: 15px;
+  padding-top: 1px;
+}
+.navbar i {
+  display: none;
+  
+}
+
+/* second */
+.second h1 {
+  margin-top: 25px;
+  font-size: 33px;
+  color: #008aff;
+  font-weight: 400;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+.second h3 {
+  font-size: 20px;
+  color: #474747;
+  font-weight: 300;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+.image img {
+  border-radius: 100px 0 100px 0;
+  width: 400px;
+  height: 270px;
+  margin-left: 55px;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+.image .img {
+  border-radius: 0 100px 0 100px;
+  width: 400px;
+  height: 249px;
+  margin-left: 55px;
+  margin-top: 55px;
+}
+.second p {
+  width: 515px;
+  height: 58px;
+  font-size: 16px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 300;
+  font-family: "Josefin Sans";
+  margin-left: 55px;
+
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  margin-top: 35px;
+}
+.list .li {
+  margin-left: 55px;
+}
+.list li {
+  color: #008aff;
+}
+.second {
+  padding-left: 80px;
+  padding-bottom: 50px;
+}
+#buttons {
+  width: 219px;
+  height: 67px;
+  border-radius: 35px;
+  background-color: #ffe824;
+  border-style: none;
+  margin-top: 49px;
+  cursor: pointer;
+  margin-left: 105px;
+}
+.horizantal hr {
+  margin-top: 100px;
+ max-width: 1920px;
+height: 5px;
+background-color:black;
+
+}
+.horizantal {
+  position: relative;
+
+}
+.like i {
+  width: 213px;
+  height: 213px;
+  border-radius: 106px;
+  filter: drop-shadow(0px 16px 34px rgba(179, 179, 179, 0.15));
+  background-color: #ffffff;
+  color: #008aff;
+  font-size: 50px;
+  text-align: center;
+  
+padding-top: 80px;
+}
+.like {
+  top: -65px;
+  position: absolute;
+margin-left: 42%;
+
+}
+#buttons:hover {
+  background-color: red;
+}
+#a {
+  cursor: pointer;
+}
+.list a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.like i:hover {
+  color: red;
+}
+
+/*THIRD */
+.third h1 {
+  font-size: 33px;
+  color: #13287e;
+  font-weight: 400;
+  font-family: "Josefin Sans";
+  text-align: center;
+  margin-top: 180px !important;
+  margin-bottom: 70px;
+}
+.third h4 {
+  font-size: 28px;
+  color: #13287e;
+  font-weight: 400;
+  font-family: "Josefin Sans";
+  text-align: center;
+  margin-top: 20px;
+}
+.third hr {
+  width: 121px;
+  height: 1px;
+  margin-left: 100px;
+  background-color: #ffe824;
+}
+.third img {
+  margin-left: 100px;
+}
+.third p {
+  width: 264px;
+  height: 58px;
+  font-size: 15px;
+  line-height: 33px;
+  color: #474747;
+  font-weight: 300;
+  font-family: "Josefin Sans";
+  margin-left: 30px;
+  text-align: center;
+}
+.third {
+
+  padding-bottom: 120px;
+}
+/* fourth */
+.fourth {
+  background-image: url("Group\ 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  padding-top: 70px;
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+.test h1 {
+  font-size: 33px;
+  color: #13287e;
+  font-weight: 400;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+.test p {
+  width: 675px;
+  height: 86px;
+  font-size: 18px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 300;
+  font-family: "Josefin Sans";
+  text-align: center;
+  margin-top: 25px;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+}
+
+.test img {
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.fourth h5 {
+  font-size: 19px;
+  line-height: 23px;
+  color: #f7b74d;
+  font-weight: 400;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+.fourth span {
+  font-size: 19px;
+  line-height: 23px;
+  color: gray;
+  font-weight: 400;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+
+/* fifth */
+.fifth h1 {
+  text-align: center;
+  color: #13287e;
+  margin-top: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraph p {
+  width: 675px;
+  height: 61px;
+  font-size: 20px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 300;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 25px;
+}
+.fifth .col-4 p {
+  margin-top: 20px;
+  width: 183px;
+  height: 156px;
+  font-size: 14px;
+  line-height: 35px;
+  color: #474747;
+  font-weight: 300;
+  font-family: "Josefin Sans";
+  text-align: center;
+  margin-bottom: 25px;
+}
+.fifth .col-4 span {
+  color: #008aff;
+}
+.fifth h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #474747;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: inline-block;
+  margin-left: 25px;
+}
+.numbers {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.numbers h1 {
+  font-size: 119px;
+  color: #008aff;
+  font-weight: 600;
+  font-family: "Josefin Sans";
+  margin-top: -15px;
+}
+.numbers sub {
+  font-size: 24px;
+color: #474747;
+font-weight: 400;
+font-family: "Josefin Sans";
+}
+.start {
+  display: inline-block;
+  justify-content: center;
+}
+.fifth .btn {
+  width: 200px;
+  height: 57px;
+  border-radius: 33px;
+  background-color: #ffe824;
+  border-style: none;
+  margin-top: 49px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.fifth {
+  padding-bottom: 80px;
+}
+.fifth .btn:hover {
+    background-color: red ;
+}
+/* sixth */
+.sixth {
+background-image: url("22.png");
+background-position: center;
+background-size: cover;
+padding-bottom: 35px;
+
+
+}
+.img {
+    width: 50px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: -20px;
+    
+}
+.img img {
+    display:flex;
+}
+.child {
+    position: absolute;
+    margin-top: 20px;
+}
+.sixth h1 {
+    font-size: 68px;
+color: #13287e;
+font-weight: 600;
+font-family:'Times New Roman', Times, serif;
+text-align: center;
+margin-top: 25px;
+}
+.sixth .paragraph p{
+    width: 675px;
+    height: 52px;
+    font-size: 20px;
+    line-height: 35px;
+    color: #474747;
+    font-weight: 300;
+    font-family: "Josefin Sans";
+    text-align: center;
+}
+.paragraph {
+    display: flex;
+    justify-content: center;
+}
+.btn-two button{
+    width: 219px;
+height: 67px;
+border-radius: 33px;
+background-color: #ffe824;
+}
+.btn-two {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+.sixth span {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* seventh */
+.seventh h1 {
+    text-align: center;
+    color: #13287e;
+    margin-top: 120px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.seventh .paragraph p {
+    width: 570px;
+height: 41px;
+font-size: 18px;
+line-height: 30px;
+color: #474747;
+font-weight: 300;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+}
+.paragraph {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.seventh nav a:hover {
+    border-radius: 22px;
+    color: white !important;
+    background-size: 150px;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    background-color: #008aff;
+    padding-left: 15px;
+    padding-top: 1px;
+} 
+.seventh nav {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+/* footer */
+
+footer {
+    padding-bottom: 50px;
+}
+footer button {
+    width: 200px;
+    height: 57px;
+    border-radius: 33px;
+    background-color: #ffe824;
+   margin-top: 50px;
+   border:none;
+}
+footer button:hover {
+    background-color: red;
+
+}
+footer .icon {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  color: black;
+ 
+}
+footer .icon i {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+/* last */
+.last p {
+    width: 1171px;
+height: 46px;
+font-size: 18px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+text-align: center;
+}
+
+
+.last .paragraph {
+    display: flex;
+    justify-content: center;
+
+}
+.par p {
+    font-size: 16px;
+line-height: 30px;
+color: #474747;
+font-weight: 300;
+font-family: "Josefin Sans";
+text-align: right;
+}
+.par {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 1228px){
+  header {
+    background-image: none;
+    background-color: #f5faff;
+  }
+  header nav {
+   display: none;
+  }
+  .navbar i {
+    display: inline;
+    font-size: 70px;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+ header img {
+   display: none;
+ }
+
+ #btn{
+   width: 100px;
+   font-size: smaller;
+   
+ }
+ .media {
+   display: flex;
+   flex-wrap: wrap;
+ }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    
+  }
+  .general h1 {
+    font-size: 22px;
+    margin-top: 50px;
+  }
+  #h1 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  header p {
+    width: 375px;
+    height: 58px;
+  }
+  #button {
+    margin-top: 70px;
+  }
+  /* second */
+ 
+  .second h1 {
+   
+    font-size: 25px;
+   
+  }
+  .second h3 {
+    font-size: 16px;
+ 
+  }
+  
+  .image img {
+ 
+    width: 400px;
+   
+  
+  }
+  .image .img {
+
+    width: 400px;
+  
+  }
+  .second p {
+    width: 315px;
+    font-size: 16px;
+    }
+    .list {
+      margin-top: 85px;
+    }
+    /* third */
+    .third h1 {
+      font-size: 33px;
+      text-align: center;
+    }
+    .like {
+      margin-left: 42%;
+    }
+    /* fourth */
+    .photo img {
+      margin-top: 100px;
+    }
+ .last .p {
+  height: 166px;
+  margin-bottom: 80px;
+ }
+  }
